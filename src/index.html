@@ -6,7 +6,7 @@
     <title>lesson 12</title>
     <link rel="stylesheet" href="./output.css">
 </head>
-<body>
+<body class="font-[Inter]">
     <header class="bg-[#9DC82C] lg:px-20 py-5 px-10 flex justify-between items-center">
         <img src="./10.png" class="">
         <button class="flex justify-center items-center gap-2 w-30 h-5 p-5 border-2 border-solid border-white rounded-xl">
@@ -89,8 +89,8 @@
             <p>11.990 руб</p>
         </div>
     </div>
-    <div>
         <h1 class="lg:text-5xl text-3xl font-bold text-center">Новости и предложения</h1>
+    <div class="lg:flex lg:justify-between">
         <div class="bg-[url('./6.png')] bg-cover bg-center h-70 rounded-2xl lg:px-10 px-5 py-5 lg:w-200 my-5 lg:mx-20 mx-10">
             <p class="text-[#9DC82C]">Диван Альмека</p>
             <h1 class="font-bold text-3xl">Хит недели</h1>
@@ -112,7 +112,7 @@
             <h2 class="font-bold text-2xl">11.990 руб</h2>
             <button class="bg-[#94c82c] text-white font-bold p-3 rounded-xl">В корзину</button>        
         </div>
-        <div class="bg-[url('./6.png')] bg-cover bg-center h-70 rounded-2xl lg:px-10 px-5 py-5 lg:w-200 my-5 lg:mx-20 mx-10">
+        <div class="bg-[url('./6.png')] bg-cover bg-center h-70 lg:hidden rounded-2xl lg:px-10 px-5 py-5 lg:w-200 my-5 lg:mx-20 mx-10">
             <p class="text-[#9DC82C]">Диван Альмека</p>
             <h1 class="font-bold text-3xl">Хит недели</h1>
             <p>Цвет: Синий аметист</p>
@@ -128,5 +128,84 @@
         </div>
         <img src="./7.png" class="">
     </div>
+    <div class="bg-[#F9F9F9]">
+        <h1 class="font-bold text-center lg:text-5xl text-3xl">Отзывы клиентов</h1>
+        <div class="boxes lg:flex lg:justify-between lg:gap-5 lg:px-40 px-10 py-5 lg:items-center">
+
+            <div class="box bg-white rounded-xl p-3 my-3">
+                <div class="top flex gap-3 items-center">
+                    <img src="./8.png" class="rounded-4xl">
+                    <div class="text">
+                        <h1 class="font-bold lg:text-4xl text-xl w-30">Елена Александровна</h1>
+                    </div>
+                </div>
+                <p class="my-2">
+                    Конструкторы Лего развивают мелкую моторику рук, способность к концентрации, мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал. Элементам конструкторов Lego свойственны четкие геометрические формы, что помогает 
+                </p>  
+                <p class="text-end">21.07.23</p>  
+            </div>
+            <div class="box bg-white rounded-xl p-3 my-3">
+                <div class="top flex gap-3 items-center">
+                    <img src="./8.png" class="rounded-4xl">
+                    <div class="text">
+                        <h1 class="font-bold lg:text-4xl text-xl w-30">Елена Александровна</h1>
+                    </div>
+                </div>
+                <p class="my-2">
+                    Конструкторы Лего развивают мелкую моторику рук, способность к концентрации, мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал. Элементам конструкторов Lego свойственны четкие геометрические формы, что помогает 
+                </p>  
+                <p class="text-end">21.07.23</p>  
+            </div>
+            <div class="box bg-white rounded-xl p-3 my-3">
+                <div class="top flex gap-3 items-center">
+                    <img src="./8.png" class="rounded-4xl">
+                    <div class="text">
+                        <h1 class="font-bold lg:text-4xl text-xl w-30">Елена Александровна</h1>
+                    </div>
+                </div>
+                <p class="my-2">
+                    Конструкторы Лего развивают мелкую моторику рук, способность к концентрации, мышление, ловкость, интеллект, и помогают ребятишкам раскрывать их творческий потенциал. Элементам конструкторов Lego свойственны четкие геометрические формы, что помогает 
+                </p>  
+                <p class="text-end">21.07.23</p>  
+            </div>
+        </div>
+        <div class="box lg:px-20 px-10">
+            <h1 class="font-bold lg:text-4xl text-2xl">Стол плюс</h1>
+            <p class="text-justify my-3 lg:w-300">«Стол Плюс» — больше, чем мебельный магазин в Воронеже. Это семейное дело с 20-летней историей, 30 проверенными фабриками-партнёрами, большим каталогом мебели и собственным производством. У нас сплоченная команда профессионалов, преданных своей работе и заинтересованных в результате.</p>
+        </div>
+    </div>
+    <footer class="lg:px-20 px-10 py-5 lg:flex lg:justify-between lg:items-start">
+        <div>
+            <img src="./1.png" class="">
+            <h3 class="text-[#8CC004] font-bold lg:w-60">StolPlus - Компания по производствуи продажи мебели</h3>
+            <p class="my-2">Информация на сайте исключительно для ознакомления</p>
+        </div>
+        <div>
+            <h3 class="text-[#3F3F3F] font-bold">Каталог</h3>
+            <p class="my-1">Мебель из массива</p>
+            <p class="my-1">Столы</p>
+            <p class="my-1">Стулья</p>
+            <p class="text-[#3F3F3F] font-bold mt-3">Консоли</p>
+            <p class="my-1">Кухонные уголки</p>
+            <p class="my-1">Кресла</p>
+            <p class="my-1">Интерьерные диваны</p>
+            <p class="my-1">Кровати</p>
+        </div>
+        <div>
+            <h3 class="text-[#3F3F3F] font-bold mt-3">Помощь</h3>
+            <p class="my-1">Мебель из массива</p>
+            <p class="my-1">Столы</p>
+            <p class="my-1">Стулья</p>
+            <p class="text-[#3F3F3F] font-bold">Консоли</p>
+            <p class="my-1">Кухонные уголки</p>
+        </div>
+        <div>
+            <h3 class="text-[#3F3F3F] font-bold mt-3">Контакты</h3>
+            <p class="text-[#3f3f3f]">г.Воронеж Бульвар Победы 23Б</p>
+            <p class="text-[#3f3f3f]">+7 (961) 181-69-70</p>
+            <p class="text-[#3f3f3f]">mailto:stolplus@mail.ru</p>
+            <p class="text-[#3f3f3f]">Время работы: 10:00-21:00</p>
+        </div>
+    </footer>
 </body>
 </html>
